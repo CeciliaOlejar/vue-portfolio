@@ -1,9 +1,11 @@
 <script setup>
+import navBar from './components/navBar.vue';
 </script>
 
 <template>
   <header>
     <!-- nav bar -->
+    <nav-bar />
     <h1>hola mundillo</h1>
     <!-- datos personales -->
   </header>
