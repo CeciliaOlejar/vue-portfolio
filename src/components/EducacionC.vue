@@ -1,9 +1,7 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 
 import { ref } from 'vue';
 const fechaColor = ref([]);
-/*Esta es otra forma de utilizar el arreglo, con el metodo value*/
 fechaColor.value = [
     { color: '#41516c' },
     { color: '#FBCA3E' },
