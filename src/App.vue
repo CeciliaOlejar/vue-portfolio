@@ -1,6 +1,6 @@
 <script setup>
 import DatosPersonales from './components/DatosPersonales.vue';
-// import Educacion from './components/Educacion.vue';
+import Educacion from './components/Educacion.vue';
 // import Experiencia from './components/Experiencia.vue';
 // import Habilidades from './components/Habilidades.vue';
 // import Intereses from './components/Intereses.vue';
