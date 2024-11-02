@@ -3,7 +3,7 @@ import DatosPersonales from './components/DatosPersonales.vue';
 import Educacion from './components/EducacionC.vue';
 import Experiencia from './components/ExperienciaC.vue';
 import Habilidades from './components/HabilidadesC.vue';
-// import Intereses from './components/InteresesC.vue';
+import Intereses from './components/InteresesC.vue';
 import navBar from './components/navBar.vue';
 import Proyectos from './components/ProyectosC.vue';
 </script>
@@ -40,7 +40,7 @@ import Proyectos from './components/ProyectosC.vue';
 
     <section id="intereses">
       <h2>Intereses</h2>
-      <!-- <Intereses /> -->
+      <Intereses />
     </section>
   </main>
   <footer>
