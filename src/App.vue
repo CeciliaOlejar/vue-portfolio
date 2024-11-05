@@ -12,10 +12,9 @@ import Proyectos from './components/ProyectosC.vue';
   <header>
     <!-- nav bar -->
     <nav-bar />
-    <h1>hola mundillo</h1>
     <!-- datos personales -->
-     <DatosPersonales/>
-     
+    <DatosPersonales />
+
   </header>
   <main>
     <section id="educacion">
@@ -56,5 +55,12 @@ footer {
   align-items: center;
   padding: 2rem;
   font-size: 1.3rem;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xxx-large;
 }
 </style>

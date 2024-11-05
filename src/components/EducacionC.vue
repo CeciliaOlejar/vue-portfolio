@@ -3,29 +3,32 @@
 import { ref } from 'vue';
 const fechaColor = ref([]);
 fechaColor.value = [
-    { color: '#41516c' },
-    { color: '#FBCA3E' },
-    { color: '#E24A68' },
-    { color: '#1B5F8C' },
-    { color: '#4CADAD' }
+  { color: '#6a1b9a' },
+  { color: '#00897b' },
+  { color: '#d81b60' },
+  { color: '#ffb300' },
+  { color: '#4CADAD' },
+  { color: '#b0bec5'},
+
 ];
 const educacion = ref([
-    { fecha: '2024', title: 'Técnicatura Universitaria en Programacion', descripcion: 'Incumbencias Profesionales: Operación y programación de computadoras, desarrollo de programas en distintos lenguajes, análisis y control de sistemas informáticos.', enlace: '' },
-    { fecha: '2023', title: 'Desarrollador Full Stack', descripcion: '', enlace: '' },
-    { fecha: '2022', title: 'Desarrollo Web', descripcion: '', enlace: '' },
-    { fecha: '2021', title: 'Proyecto Personal - Aplicación de Gestión de Tareas', descripcion: '', enlace: '' },
-    { fecha: '2020', title: 'Curso de Introducción a la Programación', descripcion: 'Completé un curso en línea sobre fundamentos de programación, donde aprendí lenguajes como Python y Java.', enlace: '' }
+  { fecha: '2024', title: 'Técnicatura Universitaria en Programacion', descripcion: 'UTN Facultad Regional San Rafael Mendoza.', enlace: 'https://www.frsr.utn.edu.ar/programacion/' },
+  { fecha: '2023', title: 'Desarrollador Full Stack JAVA', descripcion: 'Argentina Programa con la Universidad Nacional de La Punta, San Luis.', enlace: 'https://www.ulp.edu.ar/' },
+  { fecha: '2022', title: 'Desarrollador Full Stack Python', descripcion: 'Programa de Codo a Codo, Ciudad Autonoma de Buenos Aires.', enlace: 'https://drive.google.com/file/d/1_f-Qu_Pfzzu8UuUmIIlmtII8YeypZPDA/view' },
+  { fecha: '2020-2022', title: 'Técnicatura Universitaria en Administracion ', descripcion: 'UTN Facultad Regional Mar del Plata.', enlace: 'https://mdp.utn.edu.ar/tecnicatura/tecnico-universitario-en-administracion/' },
+  { fecha: '2021', title: 'TutOra de catedra Analisis Matematico II', descripcion: 'Colabore en las tutorias de la catedra de analisis matematico II, en la UTN MDP.' },
+  { fecha: '2017-2020', title: 'Ingenieria Naval', descripcion: 'Cursado y aprobado hasta el 3er año de la carrera.' }
 ]);
 </script>
 <template>
-    <ul>
-        <li v-for="(item, index) in educacion" :key="index" :style="{ '--fecha-color': fechaColor[index].color }">
-            <div class="fecha">{{ item.fecha }}</div>
-            <h3 class="title">{{ item.title }}</h3>
-            <div class="descripcion">{{ item.descripcion }}</div>
-            <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
-        </li>
-    </ul>
+  <ul>
+    <li v-for="(item, index) in educacion" :key="index" :style="{ '--fecha-color': fechaColor[index].color }">
+      <div class="fecha">{{ item.fecha }}</div>
+      <h3 class="title">{{ item.title }}</h3>
+      <div class="descripcion">{{ item.descripcion }}</div>
+      <a v-if="item.enlace" class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+    </li>
+  </ul>
 </template>
 
 <style scoped>

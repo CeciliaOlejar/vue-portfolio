@@ -9,6 +9,12 @@
   --vt-c-black-mute: #282828;
 
   --vt-c-indigo: #2c3e50;
+  --vt-c-purple: #6a1b9a;
+  --vt-c-pink-accent: #d81b60;
+  --vt-c-teal: #00897b;
+  --vt-c-soft-gray: #b0bec5;
+  --vt-c-gold: #ffb300;
+  
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
@@ -19,6 +25,11 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --vt-c-background-light: #f9f9fc;
+  /* Fondo suave */
+  --vt-c-background-accent: #fce4ec;
+  /* Fondo de acento */
 }
 
 /* semantic color variables for this project */
