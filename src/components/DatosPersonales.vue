@@ -11,11 +11,11 @@ const presentacion = 'Hola! Bienvenida/o a mi portafolio de proyectos.';
 const presentacion2 = 'Desde hace 3 años que vengo realizando diversas capacitaciones sobre desarrollo web y lenguajes de programación como JavaScript, Python, Java y C# con.NET.';
 const presentacion3 = 'Actualmente me encuentro desde dos años trabajando para Banco Provincia Microcréditos como desarrolladora especializada en CRM';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/' },
-  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/' },
-  { id: 3, name: 'github', src: github, url: '' },
-  { id: 4, name: 'curriculum', src: cv, url: '' },
-  { id: 5, name: 'wpp', src: wpp, url: ''},
+  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/ceciliaolejarczyk/' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/chechuolejarczyk/' },
+  { id: 3, name: 'github', src: github, url: 'https://github.com/CeciliaOlejar' },
+  { id: 4, name: 'curriculum', src: cv, url: 'https://drive.google.com/file/d/1ouZ4G8S-KAyyYT2m0wyKn2wWCjRX7Mui/view?usp=sharing' },
+  { id: 5, name: 'wpp', src: wpp, url: 'https://wa.me/542234222438?text=Hola!%20Estuve%20viendo%20tu%20perfil..'},
 ];
 const residencia = 'Santa Clara del Mar, Buenos Aires, Argentina';
 </script>
@@ -39,7 +39,7 @@ const residencia = 'Santa Clara del Mar, Buenos Aires, Argentina';
             </a>
           </li>
         </ul>
-        <h3>{{ residencia }}</h3>
+        <h3><a href="https://maps.app.goo.gl/wrHT18wtCf9ZXhrs8">{{ residencia }}</a></h3>
       </div>
     </div>
   </section>

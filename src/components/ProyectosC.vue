@@ -45,7 +45,7 @@ misProyectos.value = ([
         <div class="proyecto-links">
           <a :href="proyecto.projectoLink" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
             Proyecto</a>
-          <a :href="proyecto.githubLink" class="github-link" target="_blank" rel="noopener noreferrer">Ver
+          <a v-if="proyecto.githubLink" :href="proyecto.githubLink" class="github-link" target="_blank" rel="noopener noreferrer">Ver
             Código en GitHub</a>
         </div>
       </div>
