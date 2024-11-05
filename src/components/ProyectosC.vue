@@ -12,7 +12,7 @@ misProyectos.value = ([
     descripcion: `Corralon de Materiales.
     Diseño de pagina web con
     construccion de identidad de marca, logo y paleta de colores.`,
-    projectoLink: "https://elescudomaterialesmio.netlify.app/",
+    projectoLink: "https://escudomaterialesmio.netlify.app/",
     githubLink: "https://github.com/CeciliaOlejar/ElEscudoMateriales"
   },
   {

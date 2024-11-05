@@ -1,8 +1,15 @@
 <script setup>
 import { ref } from 'vue';
+
 const intereses = ref([
-  "interes1",
-  "interes2",
+  'Fotografia:',
+  ' Me encanta el mundo de la fotografia.En el año 2022 logre comprar mi primera camara de fotos Nikon luego de mucho esfuerzo. En el año 2023 realice un curso de fotografia para perfeccionarme aun más.Mi tipo de fotografia favorito es el deportivo.',
+  'Ceramica:',
+  ' En el 2023 descubri el mundo de la ceramica, me apasiono el trabajar con las manos y potenciar la creatividad en cada pieza. Además, el proceso de hacer ceramica te ayuda a trabajar la frustracion, la paciencia y el detalle.',
+  'Cocina:',
+  ' Disfruto mucho cocinar y probar recetas nuevas, soy de la generacion que crecio mirando Utilisima y el Gourmet. Mi comida preferida son las pastas rellenas con crema de hongos.',
+  'Deporte:',
+  ' Me apasiona el automovilismo y todas sus variantes. Tuve un auto para correr picadas, fue un hermoso proyecto que tuvimos en conjunto con mi novio. Además, los domingos son de carreras de F1, de motocross o la categoria zonal de donde vivo.'
 ]);
 </script>
 
@@ -45,14 +52,18 @@ footer {
   z-index: 2000;
   margin-bottom: 0%;
 }
-footer a,p{
+
+footer a,
+p {
   color: black;
   font-weight: 1000;
 }
 
 body,
-html {
+html,
+h2 {
   overflow-x: hidden;
+  text-align: center;
 }
 
 .intereses-contenedor {
@@ -70,10 +81,11 @@ html {
   list-style-type: none;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  color: var(--vt-c-white-soft);
+  color: var(--vt-c-white);
   font-size: 1.4rem;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
-  z-index: 10;
+  z-index: 1000;
+  justify-content: center;
 }
 
 .item {
@@ -88,7 +100,7 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  margin:auto;
+  margin: auto;
 }
 
 .waveWrapperInner {
