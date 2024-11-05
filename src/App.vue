@@ -38,24 +38,13 @@ import Proyectos from './components/ProyectosC.vue';
     </section>
 
     <section id="intereses">
-      <h2>Intereses</h2>
       <Intereses />
     </section>
   </main>
-  <footer>
-    <a href="#top">Inicio</a>
-    <p> Portafolio web - tutorial UTN FRSR</p>
-  </footer>
 </template>
 
 <style scoped>
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  font-size: 1.3rem;
-}
+
 
 h2 {
   display: flex;

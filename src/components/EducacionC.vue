@@ -14,7 +14,7 @@ const educacion = ref([
   { fecha: '2023', title: 'Desarrollador Full Stack JAVA', descripcion: 'Argentina Programa con la Universidad Nacional de La Punta, San Luis.', enlace: 'https://www.ulp.edu.ar/' },
   { fecha: '2022', title: 'Desarrollador Full Stack Python', descripcion: 'Programa de Codo a Codo, Ciudad Autonoma de Buenos Aires.', enlace: 'https://drive.google.com/file/d/1_f-Qu_Pfzzu8UuUmIIlmtII8YeypZPDA/view' },
   { fecha: '2020-2022', title: 'Técnicatura Universitaria en Administracion ', descripcion: 'UTN Facultad Regional Mar del Plata.', enlace: 'https://mdp.utn.edu.ar/tecnicatura/tecnico-universitario-en-administracion/' },
-  { fecha: '2021', title: 'TutOra de catedra Analisis Matematico II', descripcion: 'Colabore en las tutorias de la catedra de analisis matematico II, en la UTN MDP.' },
+  { fecha: '2021', title: 'Tutora de catedra Analisis Matematico II', descripcion: 'Colabore en las tutorias de la catedra de analisis matematico II, en la UTN MDP.' },
   { fecha: '2017-2020', title: 'Ingenieria Naval', descripcion: 'Cursado y aprobado hasta el 3er año de la carrera.' }
 ]);
 </script>
