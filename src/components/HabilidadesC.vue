@@ -101,7 +101,7 @@ const habilidades = ref([
   margin-bottom: 10px;
   font-size: 1.5em;
   font-weight: bold;
-  color: #000;
+  color: #ffffff;
   text-align: center;
 }
 
