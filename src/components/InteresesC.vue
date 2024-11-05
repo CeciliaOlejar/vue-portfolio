@@ -53,7 +53,6 @@ footer a,p{
 body,
 html {
   overflow-x: hidden;
-  /* Evita el desplazamiento horizontal */
 }
 
 .intereses-contenedor {
@@ -61,12 +60,10 @@ html {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 0 auto;
+  margin: -1px auto;
   max-width: 100%;
-  /* Ajustado para evitar desbordamiento */
   padding: 1rem;
   overflow: hidden;
-  /* Evita el desbordamiento */
 }
 
 .contenedor-lista {
