@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import escudo from '/src/assets/elescudo.jpg';
-import rosadita from '/src/assets/la Rosadita.png';
+import rosadita from '/src/assets/larosadita.png';
 import prome from '/src/assets/provincia-microcreditos.png';
 var misProyectos = ref([]);
 misProyectos.value = ([
