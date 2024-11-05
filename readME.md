@@ -1,3 +1,7 @@
+Este fue uno de los trabajo final de la materia Programacion II. Consiste en un porfolio personal, construido con .VUE 
+
+Podras verlo subido en el siguiente link 
+
 https://porfolio-ceciliaolejarczyk.netlify.app/
 
 
