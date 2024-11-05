@@ -1,9 +1,9 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
   font-weight: normal;
 }
 
@@ -39,7 +39,7 @@ body {
     /* Aplica un diseño flexible al contenedor */
     flex-direction: column;
     /* Organiza los elementos en una columna */
-    width: 80%;
+    width: 95%;
     /* Limita el ancho del contenedor al 80% de la pantalla en dispositivos grandes */
   }
 }

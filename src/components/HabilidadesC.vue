@@ -90,6 +90,7 @@ const habilidades = ref([
   position: relative;
   background-image: linear-gradient(to bottom, #86377b 20%, #27273c 100%);
   margin-bottom: 0;
+  margin: 0 auto;
 }
 
 .skills-categoria {

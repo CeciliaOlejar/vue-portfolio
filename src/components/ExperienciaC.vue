@@ -33,6 +33,7 @@ const experiencias = ref([
   padding: 2rem;
   background-color:var(--vt-c-soft-gray);
   border-radius: 15px;
+  margin: 0 auto;
 }
 
 .titulo {

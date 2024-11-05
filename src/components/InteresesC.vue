@@ -99,7 +99,7 @@ html {
   width: 100%;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+  background-image: linear-gradient(to top, #86377b 20%, #27273c 90%);
 }
 
 .bgTop {
@@ -120,7 +120,6 @@ html {
   position: absolute;
   left: 0;
   width: 200%;
-  /* Ajuste del ancho para evitar el desplazamiento horizontal */
   height: 100%;
   background-repeat: repeat-x;
   background-position: 0 bottom;

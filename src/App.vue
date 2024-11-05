@@ -52,4 +52,13 @@ h2 {
   align-items: center;
   font-size: xxx-large;
 }
+section #habilidades{
+  margin-bottom: 0 ;
+  padding-bottom: 0%;
+}
+section #intereses{
+  margin-top: -10;
+  padding-top: 0;
+  z-index: 1;
+}
 </style>
